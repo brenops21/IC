@@ -1,1 +1,2 @@
-# Web Scrap da plataforma Jaspar
+# Iniciação Cientifica
+This folder contains scripts and outputs from my undergraduate scientific initiation
