@@ -8,7 +8,7 @@ import pandas as pd
 class SequenceSearch():
     def sequencesearch(self):
         driver = webdriver.Chrome()
-        driver.get("https://jaspar.genereg.net/search?page_size=250&tax_group=vertebrates&q=Homo+sapiens&collection=CORE")
+        driver.get("https://jaspar.genereg.net/search?page_size=250&tax_group=vertebrates&q=Homo+sapiens&collection=CORE") # Link input must be changed for each page
         driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/section[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[1]/h4/a").click()
         time.sleep(5)
         driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/section[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/div/textarea").send_keys(""">hub_3671779_hs1_hub_3671779_catLiftOffGenesV1_PRNP-203 range=chr20:4723586-4740802 5'pad=0 3'pad=0 strand=+ repeatMasking=none
